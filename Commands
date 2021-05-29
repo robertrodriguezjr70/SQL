@@ -3,3 +3,6 @@ admin
 
 SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
+
+# insert into   sql_store.customers (customer_id, first_name,last_name,birth_date,phone,address,city,state,points)
+# values (15,"Angela","Smith",1970023,"777-999-777","456 LOL Street","Glendale","AZ",16)
